@@ -5,7 +5,7 @@ function MyComponent() {
     const [count, setCount] = useState(0);
 
     function addCount() {
-        setCount(count + 1)
+        setCount(c => c + 1);
     }
 
     return(<>
